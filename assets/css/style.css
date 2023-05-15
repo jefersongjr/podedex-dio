@@ -18,3 +18,12 @@ ol.pokemons {
   margin: 0;
 }
 
+ol.pokemons li {
+  margin: .5rem;
+  border-radius: 10px;
+  padding: 3rem;
+  background-color: #14A06F;
+  color: #FFF;
+  height: 100px;
+}
+
