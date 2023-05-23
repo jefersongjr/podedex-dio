@@ -17,6 +17,6 @@ const convertPokemonHtml = (pokemon) => {
 const pokemonList = document.getElementById('pokemonList');
 
 pokeApi.getPokemons().then((pokes = []) => {
-    pokemonList.innerHTML += pokes.map(convertPokemonHtml(pokemon)).join('')
+    pokemonList.innerHTML += pokes.map(convertPokemonHtml).join('')
 })
 .catch((error) => console.error(error))
