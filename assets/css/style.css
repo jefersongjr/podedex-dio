@@ -111,6 +111,7 @@ body {
   color: #FFF;
   margin-bottom: .25rem;
   font-weight: 900;
+  text-transform: capitalize;
 }
 
 .pokemon .detail img {
