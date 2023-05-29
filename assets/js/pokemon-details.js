@@ -8,12 +8,12 @@ function convertPokemonToHTML(pokemon) {
         <span>${pokemon.order}</span>
     </div>
     <ol class="types">
-    ${pokemon.types.map((type) => `<li class="type ${type}">${type.type.name}</li>`).join('')}
+    ${pokemon.types.map((type) => `<li class="type ${type.type.name}">${type.type.name}</li>`).join('')}
     </ol>
 
 </section>
-<section>
-    <img src=${pokemon.sprites.other.home.front_default}>
+<img src=${pokemon.sprites.other.home.front_default}>
+<section class="cardBot">
     <div>
         <p>Name</p>
         <p>Heigth</p>
