@@ -74,10 +74,12 @@
 .pokemonCard {
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    justify-content: space-between;
     min-height: fit-content;
     align-items: center;
     width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .pokemonCard .cardTop .cardName  {
@@ -93,7 +95,18 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 200px;
+  height: 34%;
+  color: white;
+  font-size: 1.7rem;
+}
+
+.cardTop .cardName {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.cardBot .cardName {
+  text-transform: capitalize;
 }
 
 .types {
@@ -114,12 +127,30 @@
 
  .types .type {
     border-radius: 2.5rem;
-    width: 50px;
-    height: 1.3rem;
+    min-width: fit-content;
+    height: 1.8rem;
     text-align: center;
     filter: brightness(1.1);
  }
 
  .cardBot {
   display: flex;
+ }
+
+ .poke-img {
+  width: 13rem;
+  position: absolute;
+  top: 160px;
+ }
+
+ .cardBot  {
+  display: flex;
+  justify-content: space-around;
+  height: 55%;
+  width: 90%;
+  font-size: 1.6rem;
+ }
+ 
+ .cardBot .div-right-bot {
+  font-weight: 900;
  }

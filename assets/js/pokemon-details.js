@@ -12,9 +12,12 @@ function convertPokemonToHTML(pokemon) {
     </ol>
 
 </section>
-<img src=${pokemon.sprites.other.home.front_default}>
+    <img 
+        src=${pokemon.sprites.other.home.front_default}
+        class="poke-img"
+    >
 <section class="cardBot">
-    <div>
+    <div class="div-right-bot">
         <p>Name</p>
         <p>Heigth</p>
         <p>Weight</p>
@@ -25,7 +28,7 @@ function convertPokemonToHTML(pokemon) {
 
     </div>
     <div>
-        <p>${pokemon.name}</p>
+        <p class="cardName">${pokemon.name}</p>
         <p>${pokemon.height / 10}</p>
         <p>${pokemon.weight / 10}</p>
         <p>${pokemon.stats[0].base_stat}</p>
