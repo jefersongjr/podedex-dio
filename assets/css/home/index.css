@@ -83,7 +83,9 @@ body {
 .content {
   display: flex;
   text-align: center;
+  align-self: center;
   flex-direction: column;
+  height: 80%;
   min-height: min-content;
   padding: 1rem;
   width: 95%;
