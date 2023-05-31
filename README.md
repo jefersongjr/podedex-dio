@@ -20,12 +20,17 @@ Para utilizar a aplicação Pokedex, siga estes passos:
 
 # Capturas de Tela
 
-![Pokemon]([https://www.example.com/images/logo.png](https://raw.githubusercontent.com/jefersongjr/podedex-dio/main/assets/Captura%20de%20tela%20de%202023-05-31%2013-24-35.png)
+## Home
+![Pokemon](https://raw.githubusercontent.com/jefersongjr/podedex-dio/main/assets/homePc.png)
+
+## PokeDetalhes
+![Pokemon](https://raw.githubusercontent.com/jefersongjr/podedex-dio/main/assets/Captura%20de%20tela%20de%202023-05-31%2013-24-35.png)
 
 
-Contribuições
+# Contribuições
 
 Contribuições para este projeto são bem-vindas. Se você encontrar algum problema ou gostaria de adicionar novas funcionalidades, por favor, envie um pull request.
-Licença
+
+# Licença
 
 Este projeto está licenciado sob a Licença MIT.
