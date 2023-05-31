@@ -10,10 +10,15 @@ function convertPokemonToHTML(pokemon) {
     <ol class="types">
     ${pokemon.types.map((type) => `<li class="type ${type.type.name}">${type.type.name}</li>`).join('')}
     </ol>
-
-</section>
+    </section>
     <img 
-        src=${pokemon.sprites.other.home.front_default}
+        src="assets/pokeball.png"
+        class="pokeball-img"
+    >
+    
+    </section>
+    <img 
+        src="${pokemon.sprites.other.home.front_default}"
         class="poke-img"
     >
 <section class="cardBot">

@@ -77,6 +77,7 @@
 
 body {
   background-color: #f1f0f0;
+  display: flex;
 }
 
 .content {
@@ -85,14 +86,15 @@ body {
   flex-direction: column;
   min-height: min-content;
   padding: 1rem;
-  width: 80%;
-  background-color: #FFF;
+  width: 95%;
+  background-color: #29221d;
   margin: 1rem auto;
 
 }
 
 .content h1 {
-  margin: 1rem
+  margin: 1rem;
+  color: white;
 }
 
 .pokemons {
